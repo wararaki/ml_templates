@@ -13,6 +13,7 @@ from sklearn import datasets
 
 
 def main():
+    # load dataset
     iris = datasets.load_iris()
     x = iris.data
     y = iris.target
